@@ -1,3 +1,39 @@
 .title {
-	
+    font-size:24px;
+    font-weight: 900;
+    margin:10px;
+}
+
+.table{
+    display: table;
+    width: 800px;
+    border-collapse: collapse;
+    border: solid 2px;
+    margin-bottom: 40px;
+}
+
+.header{
+    display: table-row;
+    background-color: rgb(27, 186, 226);
+}
+.data{
+    display: table-row;
+}
+.item{
+    margin: 2px;
+    display: table-cell;
+    border: solid 1px;
+    padding: 2px;
+}
+.name{
+    width: 140px;
+}
+.url{
+    width:280px;
+}
+.description{
+    width:520px;
+}
+.git{
+    width:60px;
 }
